@@ -20,9 +20,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: hand
+  m_Name: coin
   m_Shader: {fileID: 4800000, guid: 849dc4ff793a3f943ad21a3b6ee26456, type: 3}
-  m_ShaderKeywords: _ADDITIONAL_LIGHTS_ENABLED _FOG _ZWRITE_ON
+  m_ShaderKeywords: _ADDITIONAL_LIGHTS_ENABLED _FOG _SPECULAR _ZWRITE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -121,7 +121,7 @@ Material:
     - _Parallax: 0.005
     - _PureShadowColor: 0
     - _QueueOffset: 0
-    - _Ramp0: -0.11
+    - _Ramp0: 0
     - _Ramp1: 0.5
     - _RampSmoothness: 1.35
     - _RampTriple: 0
@@ -129,11 +129,11 @@ Material:
     - _ShadowMask: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _Specular: 0
-    - _SpecularExponent: 200
+    - _Specular: 1
+    - _SpecularExponent: 12
     - _SpecularHighlights: 1
-    - _SpecularSmoothness: 0.025
-    - _SpecularThreshold: 0.8
+    - _SpecularSmoothness: 1
+    - _SpecularThreshold: 1
     - _SrcBlend: 1
     - _Surface: 0
     - _UseRampMap: 0
@@ -141,11 +141,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.9056604, g: 0.6600751, b: 0.24350302, a: 1}
+    - _BaseColor: {r: 0.9339623, g: 0.8540932, b: 0.04111775, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ShadowTint: {r: 0.5566038, g: 0.38362256, b: 0.06563723, a: 1}
+    - _ShadowTint: {r: 0.93333334, g: 0.5903064, b: 0.039215684, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 1, g: 0.7187534, b: 0.27044016, a: 0.9254902}
   m_BuildTextureStacks: []
