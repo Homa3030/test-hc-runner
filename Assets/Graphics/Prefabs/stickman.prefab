@@ -65,7 +65,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f4943ceddcd0402459cb5bcbd43a10cc,
         type: 3}
       propertyPath: m_Name
-      value: stickman Variant
+      value: stickman
       objectReference: {fileID: 0}
     - target: {fileID: 3727956284482021115, guid: f4943ceddcd0402459cb5bcbd43a10cc,
         type: 3}
@@ -80,7 +80,7 @@ PrefabInstance:
     - target: {fileID: 3727956284482021115, guid: f4943ceddcd0402459cb5bcbd43a10cc,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[0]
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3727956284482021115, guid: f4943ceddcd0402459cb5bcbd43a10cc,
         type: 3}
@@ -91,6 +91,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: c9ecd6f63f0e2ec42aeb732fe577000d, type: 2}
+      objectReference: {fileID: 9100000, guid: e01e98fa20149fd4bb5666ccf5124ac5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4943ceddcd0402459cb5bcbd43a10cc, type: 3}
